@@ -27,7 +27,5 @@ is that I want the file names fully qualified with it's entire path. So I should
     images = list(map(folder_join, images))
     print(str(images))
 
-
- If one.jpg, two.jpg, and three.jpg are in our folder, we would get this output:
-
- output => ['/your/path/to/whatever/one.jpg', '/your/path/to/whatever/two.jpg', '/your/path/to/whatever/three.jpg']
+If one.jpg, two.jpg, and three.jpg are in our folder, we would get this output =>
+['/your/path/to/whatever/one.jpg', '/your/path/to/whatever/two.jpg', '/your/path/to/whatever/three.jpg']

@@ -12,7 +12,7 @@ TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = u'en'
 
-THEME = '/Users/bryan/Sites/pelican-themes/blueidea'
+THEME = '../pelican-themes/blueidea'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -32,13 +32,15 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ['pelican_youtube']
 
 # Theme Variables
 
+DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_SUBMENU = True
 DISPLAY_CATEGORIES_ON_POSTINFO = True
 
 CSS_FILE = 'custom.css'
-STATIC_PATHS = ['themes']
+STATIC_PATHS = ['theme/css', 'images']
